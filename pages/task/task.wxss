@@ -1,0 +1,5 @@
+/* pages/task/task.wxss */
+button{
+  width:40%
+  
+}

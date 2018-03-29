@@ -1,0 +1,14 @@
+
+<view class="container">
+
+  <view class="usermotto">
+    <text class="user-motto">配送员</text>
+  </view>
+  
+</view>
+
+<scroll-view scroll-y style="height: 200px;"> 
+<view wx:for="{{mtitleInfo}}" >
+{{item}}
+</view>
+ </scroll-view>

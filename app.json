@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/home/home",
+    "pages/task/task",
+    "pages/scaner/scaner"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "text": "菜品信息处理"
+      },
+      {
+        "pagePath": "pages/scaner/scaner",
+        "text": "扫码"
+      }
+    ]
+  }
+  
+}

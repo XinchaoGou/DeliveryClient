@@ -1,0 +1,21 @@
+<scroll-view scroll-y style="height: 200px;">
+  <checkbox-group bindchange="checkboxChange">
+    <view wx:for="{{scaninfo}}">
+      <label class="checkbox">
+        <checkbox value="{{item.value}}" checked="{{item.checked}}" />{{item}}
+      </label>
+    </view>
+  </checkbox-group>
+</scroll-view>
+
+<view class="section">
+  <view class="section__title"></view>
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+    <view class="picker">
+      菜品名：{{array[index]}}
+    </view>
+  </picker>
+  <view>
+    <button bindtap="submit">确定</button>
+  </view>
+</view>
